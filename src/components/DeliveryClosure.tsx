@@ -56,4 +56,4 @@ const simulateRequest = async () => {
     }, 800);
   });
 };
-export default DeliveryClosure;
+export default React.memo(DeliveryClosure);
